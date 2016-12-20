@@ -1,9 +1,15 @@
 # Your code goes here!
 class Dog # overall factory/ class called "Dog"
-    def name(dog_name) # instance or similarly a method to define the dog name
-        @name = dog_name
+    def initialize # instance or similarly a method to define the dog name
+        @name = name
     end
     def bark
         puts "woof!"
+    end
+    def name
+        @name
+    end
+    def name=(name)
+        @name = name
     end
 end
