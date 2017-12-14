@@ -1,10 +1,10 @@
 # Your code goes here!
 class Dog 
-    def initialize() #Parameter not needed? Does not work with 'name' as parameter 
-      bark 
-      #Program works even without line 6 because of line 18? 
-      # @name = name 
-    end
+    # def initialize() #Parameter not needed? Does not work with 'name' as parameter 
+    #   bark 
+    #   #Program works even without line 6 because of line 18? 
+    #   # @name = name 
+    # end
     
     def bark 
       puts "woof!"
